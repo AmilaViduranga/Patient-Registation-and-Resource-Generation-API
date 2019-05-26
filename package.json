@@ -1,0 +1,32 @@
+{
+  "name": "pr_and_gr_system",
+  "version": "1.0.0",
+  "description": "This is the Patient registration and generating resource allocation predictions system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AmilaViduranga/Patient-Registation-and-Resource-Generation-API.git"
+  },
+  "keywords": [
+    "patient",
+    "registration",
+    "resource",
+    "allocation"
+  ],
+  "author": "Didula Welikala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmilaViduranga/Patient-Registation-and-Resource-Generation-API/issues"
+  },
+  "homepage": "https://github.com/AmilaViduranga/Patient-Registation-and-Resource-Generation-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.11"
+  }
+}
